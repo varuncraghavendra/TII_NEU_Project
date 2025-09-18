@@ -41,6 +41,14 @@ NOTE : Enter the PX4 directory before running commands
 `ros2 launch system_bringup launch_nodes.launch.py `
 
 
+### Square Pattern Example 
 
+Outside the Docker, run the following commands in 2 separate terminals 
 
+`cd drone_pattern`
 
+`python3 square_pattern.py`
+
+`cd mqtt_client`
+
+`python3 mqtt_client.py`
