@@ -45,9 +45,13 @@ NOTE : Enter the PX4 directory before running commands
 
 Outside the Docker, run the following commands in 2 separate terminals 
 
+#### Terminal 1 
+
 `cd drone_pattern`
 
 `python3 square_pattern.py`
+
+#### Terminal 2 
 
 `cd mqtt_client`
 
