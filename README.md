@@ -1,7 +1,6 @@
 # TII_NEU_Project
 
-### Steps to run the code : 
-Launch the XRCE Agent on a new terminal : 
+Launch the DDS Agent on a new terminal : 
 
 `MicroXRCEAgent udp4 -p 8888`
 
