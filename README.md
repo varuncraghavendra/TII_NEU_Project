@@ -16,14 +16,14 @@ https://github.com/Apurv354/flight_pattern_px4
 
 ### To Spawn Multiple Drones, place this file "multi_uav_sitl.sh" inside the PX4-Autopilot folder inside the PX4 Docker and run it as follows 
 
-`bash multi_ual_sitl.sh`
+`bash multi_uav_sitl.sh`
 
 You will see a tmux terminal opening with 2 drones spawned like this :
 
 ![tmux](screenshots/tmux_shuffle.png)
 
 NOTE : Use Ctrl+B and N to toggle between the terminals of the drones
-and Ctrl+C and `bash multi_ual_sitl.sh` to end the session
+and Ctrl+C and `bash multi_uav_sitl.sh` to end the session
 
 ![swarm](screenshots/sim.png)   
 
