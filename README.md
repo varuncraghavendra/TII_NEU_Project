@@ -6,6 +6,8 @@ https://github.com/Apoorv-1009/PX4-Aerial-Swarm-Reconstruction/tree/main/src/px4
 
 https://www.youtube.com/watch?v=V5-uTaaK1aA
 
+https://github.com/Apurv354/flight_pattern_px4
+
 Launch the DDS Agent on a new terminal : 
 
 `MicroXRCEAgent udp4 -p 8888`
