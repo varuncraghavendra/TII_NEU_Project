@@ -26,13 +26,9 @@ NOTE : Enter the PX4 directory before running commands
 
 `PX4_SYS_AUTOSTART=4001 PX4_SIM_MODEL=gz_x500 ./build/px4_sitl_default/bin/px4`
 
-### To Spawn Multiple Drones, run these in different terminals within the docker : 
+### To Spawn Multiple Drones, place this file "multi_uav_sitl.sh" inside the PX4-Autopilot folder inside the PX4 Docker and run it as follows 
 
-`PX4_SYS_AUTOSTART=4001 PX4_GZ_MODEL_POSE="0,0" PX4_GZ_MODEL=x500 ./build/px4_sitl_default/bin/px4 -i 1`
-
-`PX4_SYS_AUTOSTART=4001 PX4_GZ_MODEL_POSE="0,1" PX4_GZ_MODEL=x500 ./build/px4_sitl_default/bin/px4 -i 2`
-
-`PX4_SYS_AUTOSTART=4001 PX4_GZ_MODEL_POSE="0,2" PX4_GZ_MODEL=x500 ./build/px4_sitl_default/bin/px4 -i 3`
+`bash multi_ual_sitl.sh`
 
 ### Enter ROS2 Docker using the following commands : 
 
