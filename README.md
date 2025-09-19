@@ -19,6 +19,11 @@ https://github.com/Apurv354/flight_pattern_px4
 `bash multi_ual_sitl.sh`
 
 
+
+![You will see a tmux terminal opening with 2 drones spawned like this :](path/to/image.png)
+
+
+
 ## Basic Setup to bring up the dockers 
 
 ### Enter ROS2 Docker using the following commands : 
