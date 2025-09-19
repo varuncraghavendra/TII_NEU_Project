@@ -35,13 +35,19 @@ and Ctrl+C and `bash multi_ual_sitl.sh` to end the session
 
 `docker exec -it px4_agent_ws bash`
 
-#### Run the following in new terminals inside the ROS2 Docker :
+#### Run the following inside the ROS2 Docker :
+
+`launch_all_nodes.sh`
+
+Which essentially runs the following commands in a tmux terminal : 
 
 `ros2 launch drone_basic_control launch_all_nodes.launch.py`
 
 `ros2 run goal_manager goal_manager_server`
 
 `ros2 launch system_bringup launch_nodes.launch.py `
+
+NOTE : Use Ctrl+B and N to toggle between the terminals and Ctrl+C and `launch_all_nodes.sh` to end the session. 
 
 ### Launch the DDS Agent on a new terminal (outside the docker) : 
 
