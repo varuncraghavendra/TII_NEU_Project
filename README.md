@@ -1,5 +1,11 @@
 # TII_NEU_Project
 
+Useful Repos
+
+https://github.com/Apoorv-1009/PX4-Aerial-Swarm-Reconstruction/tree/main/src/px4_swarm_controller
+
+https://www.youtube.com/watch?v=V5-uTaaK1aA
+
 Launch the DDS Agent on a new terminal : 
 
 `MicroXRCEAgent udp4 -p 8888`
