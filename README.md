@@ -20,7 +20,7 @@ https://github.com/Apurv354/flight_pattern_px4
 
 
 
-![You will see a tmux terminal opening with 2 drones spawned like this :](path/to/image.png)
+![You will see a tmux terminal opening with 2 drones spawned like this :](screenshots/tmux_shuffle.png)
 
 
 
