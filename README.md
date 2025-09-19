@@ -25,7 +25,7 @@ You will see a tmux terminal opening with 2 drones spawned like this :
 NOTE : Use Ctrl+B and N to toggle between the terminals of the drones
 and Ctrl+C and `bash multi_ual_sitl.sh` to end the session
 
-![tmux](screenshots/sim_two_drone.png)
+![tmux](screenshots/sim_two_drone.png) 
 
 ## Basic Setup to bring up the dockers 
 
