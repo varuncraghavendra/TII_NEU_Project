@@ -8,19 +8,7 @@ https://www.youtube.com/watch?v=V5-uTaaK1aA
 
 https://github.com/Apurv354/flight_pattern_px4
 
-Launch the DDS Agent on a new terminal : 
-
-`MicroXRCEAgent udp4 -p 8888`
-
-### Enter PX4 Docker using the following commands : 
-
-`docker start px4-dev-test`
-
-`docker exec -it px4-dev-test bash`
-
-NOTE : Enter the PX4 directory before running commands 
-
-`cd PX4-Autopilot`
+## Inside PX4 Docker
 
 ### To Spawn only one drone and run the simulation, run the following command : 
 
@@ -29,6 +17,9 @@ NOTE : Enter the PX4 directory before running commands
 ### To Spawn Multiple Drones, place this file "multi_uav_sitl.sh" inside the PX4-Autopilot folder inside the PX4 Docker and run it as follows 
 
 `bash multi_ual_sitl.sh`
+
+
+## Basic Setup to bring up the dockers 
 
 ### Enter ROS2 Docker using the following commands : 
 
@@ -43,6 +34,20 @@ NOTE : Enter the PX4 directory before running commands
 `ros2 run goal_manager goal_manager_server`
 
 `ros2 launch system_bringup launch_nodes.launch.py `
+
+### Launch the DDS Agent on a new terminal (outside the docker) : 
+
+`MicroXRCEAgent udp4 -p 8888`
+
+### Enter PX4 Docker using the following commands : 
+
+`docker start px4-dev-test`
+
+`docker exec -it px4-dev-test bash`
+
+NOTE : Enter the PX4 directory before running commands 
+
+`cd PX4-Autopilot`
 
 
 ### Square Pattern Example 
