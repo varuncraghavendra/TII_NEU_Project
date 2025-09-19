@@ -1,13 +1,5 @@
 # TII_NEU_Project
 
-Useful Repos
-
-https://github.com/Apoorv-1009/PX4-Aerial-Swarm-Reconstruction/tree/main/src/px4_swarm_controller
-
-https://www.youtube.com/watch?v=V5-uTaaK1aA
-
-https://github.com/Apurv354/flight_pattern_px4
-
 ## Inside PX4 Docker
 
 ### To Spawn only one drone and run the simulation, run the following command : 
@@ -79,3 +71,12 @@ Outside the Docker, run the following commands in 2 separate terminals
 `cd mqtt_client`
 
 `python3 mqtt_client.py`
+
+
+### Useful Repos
+
+https://github.com/Apoorv-1009/PX4-Aerial-Swarm-Reconstruction/tree/main/src/px4_swarm_controller
+
+https://www.youtube.com/watch?v=V5-uTaaK1aA
+
+https://github.com/Apurv354/flight_pattern_px4
