@@ -19,6 +19,10 @@ and Ctrl+C and `bash multi_uav_sitl.sh` to end the session
 
 ![swarm](screenshots/sim.png)   
 
+### Launch the DDS Agent on a new terminal (outside the docker) : 
+
+`MicroXRCEAgent udp4 -p 8888`
+
 ## Basic Setup to bring up the dockers 
 
 ### Enter ROS2 Docker using the following commands : 
@@ -40,10 +44,6 @@ Which essentially runs the following commands in a tmux terminal :
 `ros2 launch system_bringup launch_nodes.launch.py `
 
 NOTE : Use Ctrl+B and N to toggle between the terminals and Ctrl+C and `launch_all_nodes.sh` to end the session. 
-
-### Launch the DDS Agent on a new terminal (outside the docker) : 
-
-`MicroXRCEAgent udp4 -p 8888`
 
 ### Enter PX4 Docker using the following commands : 
 
