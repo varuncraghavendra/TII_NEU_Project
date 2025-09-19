@@ -60,6 +60,7 @@ NOTE : Use Ctrl+B and N to toggle between the terminals and Ctrl+C and `launch_a
 
 ### Square Pattern Example 
 
+NOTE : Do this before launching the ROS2 Docker
 Outside the Docker, run the following commands in 2 separate terminals 
 
 #### Terminal 1 
