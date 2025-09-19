@@ -23,7 +23,7 @@ You will see a tmux terminal opening with 2 drones spawned like this :
 ![tmux](screenshots/tmux_shuffle.png)
 
 NOTE : Use Ctrl+B and N to toggle between the terminals of the drones
-And Ctrl+C and `bash multi_ual_sitl.sh` to end the session
+and Ctrl+C and `bash multi_ual_sitl.sh` to end the session
 
 ## Basic Setup to bring up the dockers 
 
