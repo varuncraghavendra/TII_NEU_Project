@@ -6,26 +6,6 @@
 
 ## Basic Setup to bring up the dockers 
 
-### Enter ROS2 Docker using the following commands : 
-
-`docker start px4_agent_ws`
-
-`docker exec -it px4_agent_ws bash`
-
-#### Run the following inside the ROS2 Docker :
-
-`launch_all_nodes.sh`
-
-Which essentially runs the following commands in a tmux terminal : 
-
-`ros2 launch drone_basic_control launch_all_nodes.launch.py`
-
-`ros2 run goal_manager goal_manager_server`
-
-`ros2 launch system_bringup launch_nodes.launch.py `
-
-NOTE : Use Ctrl+B and N to toggle between the terminals and Ctrl+C and `launch_all_nodes.sh` to end the session. 
-
 ### Enter PX4 Docker using the following commands : 
 
 `docker start px4-dev-test`
@@ -56,6 +36,27 @@ and Ctrl+C and `bash multi_uav_sitl.sh` to end the session
 
 ![swarm](screenshots/sim.png)   
 
+NOTE : Once the PX4 Gazebo Simulation window is up, launch the ROS2 Docker. 
+
+### Enter ROS2 Docker using the following commands : 
+
+`docker start px4_agent_ws`
+
+`docker exec -it px4_agent_ws bash`
+
+#### Run the following inside the ROS2 Docker :
+
+`launch_all_nodes.sh`
+
+Which essentially runs the following commands in a tmux terminal : 
+
+`ros2 launch drone_basic_control launch_all_nodes.launch.py`
+
+`ros2 run goal_manager goal_manager_server`
+
+`ros2 launch system_bringup launch_nodes.launch.py `
+
+NOTE : Use Ctrl+B and N to toggle between the terminals and Ctrl+C and `launch_all_nodes.sh` to end the session. 
 
 ### Square Pattern Example 
 
