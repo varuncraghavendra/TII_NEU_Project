@@ -91,6 +91,8 @@ Save and then
 
 ### Useful Repos
 
+https://docs.px4.io/main/en/ros2/multi_vehicle
+
 https://github.com/Apoorv-1009/PX4-Aerial-Swarm-Reconstruction/tree/main/src/px4_swarm_controller
 
 https://www.youtube.com/watch?v=V5-uTaaK1aA
