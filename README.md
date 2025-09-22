@@ -76,6 +76,19 @@ Outside the Docker, run the following commands in 2 separate terminals
 `python3 mqtt_client.py`
 
 
+### Gazebo Spawing Issues
+
+`nano ~/.bashrc`
+
+Add this line at the end 
+
+#### Allow Docker to access X server
+`xhost +local:docker >/dev/null 2>&1`
+
+Save and then 
+
+`source ~/.bashrc`
+
 ### Useful Repos
 
 https://github.com/Apoorv-1009/PX4-Aerial-Swarm-Reconstruction/tree/main/src/px4_swarm_controller
