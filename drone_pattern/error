@@ -11,3 +11,6 @@ Inside ROS2 docker
 [INFO] [1758604741.416300132] [goal_manager_server]: Received GPS -> lat=42.340427850173654, lon=-71.08199514759063
 [ERROR] [1758604741.885457113] [goal_manager_server]: Failed to parse MQTT message: float() argument must be a string or a real number, not 'NoneType'
 [INFO] [1758604741.891673452] [goal_manager_server]: Received GPS -> lat=42.340382850128655, lon=-71.08199514759063
+
+buildings_cache_e7ba8105.pkl
+graph_cache_91fc2d6b.pkl
