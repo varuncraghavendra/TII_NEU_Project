@@ -14,3 +14,8 @@ Inside ROS2 docker
 
 buildings_cache_e7ba8105.pkl
 graph_cache_91fc2d6b.pkl
+
+Error collecting data: (<urllib3.connection.HTTPConnection object at 0x79c19fc7cac0>, 'Connection to 10.100.14.130 timed out. (connect timeout=10.0)')
+Error collecting data: (<urllib3.connection.HTTPConnection object at 0x79c19fc7d150>, 'Connection to 10.100.14.130 timed out. (connect timeout=10.0)')
+[WARN] RSRP unavailable (No data); using -999.0.
+Measurement complete: RSRP=-999.0 dBm, UEs=0
