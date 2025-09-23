@@ -19,3 +19,5 @@ Error collecting data: (<urllib3.connection.HTTPConnection object at 0x79c19fc7c
 Error collecting data: (<urllib3.connection.HTTPConnection object at 0x79c19fc7d150>, 'Connection to 10.100.14.130 timed out. (connect timeout=10.0)')
 [WARN] RSRP unavailable (No data); using -999.0.
 Measurement complete: RSRP=-999.0 dBm, UEs=0
+
+Error collecting data: (<urllib3.connection.HTTPConnection object at 0x76c73540ecb0>, 'Connection to 10.100.14.130 timed out. (connect timeout=10.0)')
